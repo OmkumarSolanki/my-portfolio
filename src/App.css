@@ -154,7 +154,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 13px 0 13px 50px;
+  padding: 13px 0 13px 20px;
   background: var(--white);
   box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.1);
   position: fixed;
@@ -190,7 +190,7 @@ h2 {
 .hero--section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 100px 15px 100px;
+  padding: 100px 15px 0 15px;
   align-items: center;
   justify-content: space-between;
   gap: 32px;
@@ -217,6 +217,8 @@ h2 {
   font-weight: 700;
   line-height: 90px;
   align-self: stretch;
+  justify-content: center;
+  display: flex;
 }
 .hero--section--title--color {
   color: var(--primary);
@@ -226,6 +228,8 @@ h2 {
   font-size: 24px;
   font-weight: 400;
   line-height: 36px;
+  display: flex;
+  justify-content: center;
 }
 .hero--section--img {
   display: flex;
@@ -233,6 +237,7 @@ h2 {
 .hero--section--img > img {
   height: 100%;
   max-width: 50vh;
+  padding: 0 20vh;
 }
 
 #heroSection {
@@ -566,6 +571,9 @@ input[type="checkbox"] {
 
 /* Responsive Screens */
 @media only screen and (max-width: 1800px) {
+  .hero--section--img > img {
+    padding: 0;
+  }
   .hero--section--title {
     font-size: 68px;
     line-height: 70px;
@@ -577,6 +585,9 @@ input[type="checkbox"] {
 }
 
 @media only screen and (max-width: 1600px) {
+  .hero--section--img > img {
+    padding: 0;
+  }
   .skills--section--heading {
     font-size: 54px;
     line-height: 70px;
@@ -601,6 +612,16 @@ input[type="checkbox"] {
 }
 
 @media only screen and (max-width: 1200px) {
+  .hero--section--img > img {
+    padding: 0;
+  }
+  .hero--section--content > h1 {
+    font-size: 20px;
+  }
+  .hero--section-description {
+    font-size: 15px;
+    line-height: normal;
+  }
   .profile-image {
     max-height: 30vh;
   }
@@ -760,4 +781,10 @@ input[type="checkbox"] {
 
 .logo-header {
   height: 40px;
+}
+
+.hero--section--content--box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
