@@ -199,8 +199,8 @@ h2 {
 .hero--section--content-box {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  gap: 32px;
+  flex-direction: column;
+  align-items: center;
 }
 .hero--section--content {
   display: flex;
@@ -601,6 +601,9 @@ input[type="checkbox"] {
 }
 
 @media only screen and (max-width: 1200px) {
+  .profile-image {
+    max-height: 30vh;
+  }
   .btn-outline-primary {
     display: none;
   }
