@@ -3,21 +3,20 @@ export default function HeroSection() {
     <section id="heroSection" className="hero--section">
       <div className="hero--section--content--box">
         <div className="hero--section--content">
-          <p className="section--title">Hey, I'm OM</p>
+          {/* <p className="section--title">Hey, I'm OM</p> */}
           <h1 className="hero--section--title">
-            <span className="hero--section-title--color">Full Stack</span>{" "}
-            <br />
-            Developer
+            {/* <span className="hero--section-title--color">Hey</span>{" "}
+            <br /> */}
+            I am Omkumar Solanki
           </h1>
           <p className="hero--section-description">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            <br /> Dolorum, quas. Amet soluta assumenda cum?
+            hardworking, highly motivated and detail-oriented Software Engineer with a strong background in full stack development and cloud computing.
           </p>
         </div>
-        <button className="btn btn-primary">Get In Touch</button>
+        <button className="btn btn-primary">View Resume</button>
       </div>
       <div className="hero--section--img">
-        <img src="./img/hero_img3.png" alt="Hero Section" />
+        <img class="profile-image" src="./img/hero_img1.png" alt="Hero Section" />
       </div>
     </section>
   );
