@@ -22,6 +22,7 @@ export default function HeroSection() {
         >
           View Resume
         </a>
+        
       </div>
       <div className="hero--section--img">
         <img class="profile-image" src="./img/hero_img1.png" alt="Hero Section" />

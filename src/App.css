@@ -922,3 +922,9 @@ input[type="checkbox"] {
     flex-direction: column;
   }
 }
+
+.calendly--heading {
+  display: flex;
+  justify-content: center;
+}
+

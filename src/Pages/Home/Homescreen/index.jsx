@@ -5,6 +5,7 @@ import HeroSection from "../HeroSection";
 import MyPortfolio from "../MyPortfolio";
 import MySkills from "../MySkills";
 import Education from "../Education";
+import CalendlyWidget from "../Calendly";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <MyPortfolio />
       <Education />
       <ContactMe />
+      <CalendlyWidget />
       <Footer />
     </>
   );
