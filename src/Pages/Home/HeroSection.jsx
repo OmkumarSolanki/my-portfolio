@@ -10,7 +10,7 @@ export default function HeroSection() {
             I am Omkumar Solanki
           </h1>
           <p className="hero--section-description">
-            Hardworking, highly motivated and detail-oriented Software Engineer with a strong background in full stack development and cloud computing.
+            A hardworking, highly motivated and detail-oriented Software Engineer with a strong background in full stack development and cloud computing.
           </p>
         </div>
         {/* <button className="btn btn-primary">View Resume</button> */}
@@ -18,7 +18,7 @@ export default function HeroSection() {
           href="https://drive.google.com/file/d/12gUiuGNCWF185F9U5IQ_7wCNsxgt7qxM/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
-          className="btn btn-primary"
+          className="btn btn-primary view-resume"
         >
           View Resume
         </a>

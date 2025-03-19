@@ -48,7 +48,7 @@
       "link": "View In Github"
     }
   ],
-  "testimonial": [
+  "Education1": [
     {
       "id": "1",
       "count": "5",
@@ -64,14 +64,24 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
       "author_name": "Kristin Watson",
       "author_designation": "Louis Vuitton"
+    }
+  ],
+  "Education": [
+    {
+      "institution": "Northeastern University, Boston, MA",
+      "degree": "Master of Science in Computer Software Engineering",
+      "duration": "Sept 2023 - Expected May 2025",
+      "gpa": "3.78",
+      "coursework": "Network Structure & Cloud Computing, Advanced Medical Device Software Engineering, Web Design & User Experience Testing, Agile Software Development, User Experience Design, Object Oriented Design in Java, Program Structure & Algorithms in Python",
+      "logo": "./img/northeastern-logo.png"
     },
     {
-      "id": "3",
-      "count": "5",
-      "src": "./img/avatar-image-2.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Kathryn Murphy",
-      "author_designation": "McDonald's"
+      "institution": "DA-IICT, Gandhinagar, India",
+      "degree": "Bachelor of Technology in Information and Communication Technology",
+      "duration": "July 2018 - May 2022",
+      "gpa": "3.08",
+      "coursework": "N/A",
+      "logo": "./img/daiict-logo.png"
     }
-  ]
+ ]
 }
