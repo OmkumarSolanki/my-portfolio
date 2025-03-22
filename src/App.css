@@ -50,7 +50,7 @@ p {
 .btn-outline-primary {
   color: var(--primary);
   background-color: var(--white);
-  border: 1px solid var(--primary);
+  border: 0px solid var(--primary);
 }
 .btn-outline-primary:hover {
   color: var(--white);
@@ -725,6 +725,9 @@ input[type="checkbox"] {
 }
 
 @media screen and (max-width: 1200px) {
+  .navbar--items > ul {
+    gap: 30px;
+  }
   .nav__hamburger {
     display: flex;
     z-index: 200;

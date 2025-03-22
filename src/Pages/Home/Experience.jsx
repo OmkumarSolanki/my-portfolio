@@ -3,7 +3,7 @@ import data from "../../data/index.json";
 
 const Experience = () => {
   return (
-    <div className="timeline-container">
+    <div id="Experience" className="timeline-container">
       <h2 className="timeline-title">Work Experience & Education</h2>
       <div className="timeline">
         {data.timeline.map((item, index) => (
