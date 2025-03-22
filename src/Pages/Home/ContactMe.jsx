@@ -42,7 +42,7 @@ export default function ContactMe() {
 
   return (
     <section id="Contact" className="contact--section">
-      <h2>Contact Me</h2>
+      {/* <h2>Contact Me</h2> */}
       <div>
         <h2>Send me a message</h2>
       </div>
