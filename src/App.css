@@ -227,9 +227,8 @@ h2 {
 }
 .hero--section-description {
   color: var(--darkblue);
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 400;
-  line-height: 36px;
   display: flex;
   justify-content: center;
 }
@@ -577,8 +576,8 @@ input[type="checkbox"] {
     padding: 0;
   }
   .hero--section--title {
-    font-size: 68px;
-    line-height: 70px;
+    font-size: 40px;
+    line-height: 40px;
   }
   .skills--section--title {
     font-size: 28px;
@@ -614,6 +613,9 @@ input[type="checkbox"] {
 }
 
 @media only screen and (max-width: 1200px) {
+  .timeline-coursework > h4, .timeline-coursework > ul {
+    font-size: 14px;
+  }
   .hero--section--img > img {
     padding: 0;
   }
@@ -621,8 +623,10 @@ input[type="checkbox"] {
     font-size: 20px;
   }
   .hero--section-description {
-    font-size: 15px;
+    font-size: 14px;
     line-height: normal;
+    font-style: normal;
+    font-weight: 400;
   }
   .profile-image {
     max-height: 30vh;
@@ -941,12 +945,6 @@ input[type="checkbox"] {
   justify-content: center;
 }
 
-.hero--section-description {
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-}
-
 .ul-course-list {
   margin-top: 0;
 }
@@ -1047,7 +1045,7 @@ input[type="checkbox"] {
   }
 
   .timeline-gpa {
-    font-size: 12px;
+    font-size: 14px;
   }
   
   .timeline-item::before {
@@ -1077,7 +1075,7 @@ input[type="checkbox"] {
   }
 
   .timeline-duration {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .timeline-responsibilities {
@@ -1088,7 +1086,7 @@ input[type="checkbox"] {
     font-size: 14px;
   }
   .timeline-subtitle {
-    font-size: 12px;
+    font-size: 14px;
     color: #777;
   }  
 }
@@ -1117,11 +1115,11 @@ input[type="checkbox"] {
   }
 
   .timeline-role {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .timeline-duration {
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 3px;
   }
 
@@ -1131,23 +1129,23 @@ input[type="checkbox"] {
   }
 
   .timeline-responsibilities li {
-    font-size: 12px;
+    font-size: 14px;
   }
   .timeline-coursework {
-    font-size: 12px;
+    font-size: 14px;
   }
   h4 {
-    font-size: 12px;
+    font-size: 14px;
   }
   .timeline-header {
     gap: 7px;
   }
   .timeline-subtitle {
-    font-size: 12px;
+    font-size: 14px;
     color: #777;
   }  
   .hero--section-description {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 
