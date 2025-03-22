@@ -9,7 +9,7 @@ const CalendlyEmbed = () => {
     <div className='calendly--section'>
       <InlineWidget 
         url={process.env.REACT_APP_CALENDLY}
-        styles={{ height: '850px', overflow: 'hidden' }}
+        styles={{ height: '900px', overflow: 'hidden' }}
       />
     </div>
     </>
