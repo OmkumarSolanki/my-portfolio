@@ -907,6 +907,11 @@ input[type="checkbox"] {
   border-radius: 50%;
 }
 
+.timeline-subtitle {
+  font-size: 16px;
+  color: #777;
+}
+
 /* Responsive Design */
 @media (max-width: 1200px) {
   .portfolio--section--container {
@@ -1004,7 +1009,7 @@ input[type="checkbox"] {
 }
 
 .timeline-subtitle {
-  font-size: 16px;
+  font-size: 12px;
   color: #777;
 }
 
