@@ -9,7 +9,7 @@ export default function MyPortfolio() {
           <h2 className="section--heading">My Projects</h2>
         </div>
         <div>
-          <button className="btn btn-github">
+          {/* <button className="btn btn-github">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
@@ -25,7 +25,7 @@ export default function MyPortfolio() {
               />
             </svg>
             Visit My GitHub
-          </button>
+          </button> */}
         </div>
       </div>
       <div className="portfolio--section--container">
