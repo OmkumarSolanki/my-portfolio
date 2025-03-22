@@ -54,7 +54,16 @@
       "degree": "Master of Science in Computer Software Engineering",
       "duration": "Sept 2023 - Expected May 2025",
       "gpa": "3.78",
-      "coursework": "Network Structure & Cloud Computing, Advanced Medical Device Software Engineering, Web Design & User Experience Testing, Agile Software Development, User Experience Design, Object Oriented Design in Java, Program Structure & Algorithms in Python",
+      "coursework": [
+        "Network Structure & Cloud Computing",
+        "Advanced Medical Device Software Engineering",
+        "Web Design & User Experience Engineering",
+        "Software Engineering",
+        "Agile Software Development",
+        "User Experience Design & Testing",
+        "Object Oriented Design in Java",
+        "Program Structure & Algorithms in Python"
+      ],
       "logo": "./img/northeastern-logo.png"
     },
     {
@@ -62,7 +71,19 @@
       "degree": "Bachelor of Technology in Information and Communication Technology",
       "duration": "July 2018 - May 2022",
       "gpa": "3.08",
-      "coursework": "N/A",
+      "coursework": [
+        "Software Engineering",
+        "Software Project Management",
+        "Machine Learning",
+        "Database Management System",
+        "No SQL Database",
+        "Introduction to Robotics",
+        "Internet of Things",
+        "Computer Networks",
+        "Computer Organization",
+        "Systems Software",
+        "Design and Analysis of Algorithms"
+      ],
       "logo": "./img/daiict-logo.png"
     }
  ]

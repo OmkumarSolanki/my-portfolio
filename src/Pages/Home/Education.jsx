@@ -18,7 +18,15 @@ export default function Education() {
                 <p className="education--degree">{item.degree}</p>
                 <p className="education--duration">{item.duration}</p>
                 <p className="education--gpa">GPA: {item.gpa}</p>
-                <p className="education--coursework">Relevant Coursework: {item.coursework}</p>
+                {/* <p className="education--coursework">Relevant Coursework: {item.coursework}</p> */}
+                <div className="education--coursework">
+                  <h4>Relevant Coursework:</h4>
+                  <ul className="ul-course-list">
+                    {item.coursework?.map((course, courseIndex) => (
+                      <li key={courseIndex}>{course}</li>
+                    ))}
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
