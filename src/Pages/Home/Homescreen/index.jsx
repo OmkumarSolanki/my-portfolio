@@ -6,6 +6,7 @@ import MyPortfolio from "../MyPortfolio";
 import MySkills from "../MySkills";
 import Education from "../Education";
 import CalendlyWidget from "../Calendly";
+import Experience from "../Experience";
 
 export default function Home() {
   return (
@@ -13,8 +14,9 @@ export default function Home() {
       <HeroSection />
       {/* <MySkills /> */}
       <AboutMe />
+      <Experience />
       <MyPortfolio />
-      <Education />
+      {/* <Education /> */}
       <ContactMe />
       <CalendlyWidget />
       <Footer />

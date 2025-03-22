@@ -86,5 +86,102 @@
       ],
       "logo": "./img/daiict-logo.png"
     }
- ]
+ ],
+ "experiences" :[
+  {
+    "company": "MAQ Software",
+    "location": "Mumbai, India",
+    "role": "Software Engineer",
+    "duration": "Jun 2022 - Mar 2023",
+    "logo": "./img/northeastern-logo.png", 
+    "responsibilities": [
+      "Created and sustained an interactive web portal featuring embedded Power BI reports with C#, .NET MVC, and JavaScript; enhanced data accessibility leading to a 40% increase in daily active users over six months.",
+      "Directed the entire project lifecycle, from database design to backend code development and user interface creation; streamlined processes that enhanced overall project delivery speed by 30% for future iterations.",
+      "Created an easy-to-use landing page for the portal to help users quickly find different reports.",
+      "Engineered high-performance stored procedures in Microsoft SQL Server to optimize complex queries, reducing execution time from two seconds to less than one second for critical daily operations."
+    ]
+  },
+  {
+    "company": "MAQ Software",
+    "location": "Mumbai, India",
+    "role": "Associate Software Engineer - Intern",
+    "duration": "Jan 2022 - Jun 2022",
+    "logo": "./img/northeastern-logo.png", 
+    "responsibilities": [
+      "Designed a comprehensive auditing platform, where users could manually upload reports and screenshots for checking code quality and architecture compliance.",
+      "Streamlined the release process for every two weeks, verifying operational excellence and adherence to established coding standards; contributed to an increase in overall system stability by addressing critical bugs ahead of rollout.",
+      "Worked on fixing bugs by troubleshooting issues and making improvements to enhance system efficiency."
+    ]
+  }
+],
+"timeline": [
+  {
+    "institution": "Northeastern University",
+    "location": "Boston, MA",
+    "type": "education",
+    "degree": "Master of Science in Computer Software Engineering",
+    "duration": "Sept 2023 - Expected May 2025",
+    "gpa": "3.78",
+    "coursework": [
+      "Network Structure & Cloud Computing",
+      "Advanced Medical Device Software Engineering",
+      "Web Design & User Experience Engineering",
+      "Software Engineering",
+      "Agile Software Development",
+      "User Experience Design & Testing",
+      "Object Oriented Design in Java",
+      "Program Structure & Algorithms in Python"
+    ],
+    "logo": "./img/northeastern-logo.png"
+  },
+  {
+    "company": "MAQ Software",
+    "location": "Mumbai, India",
+    "type": "experience",
+    "role": "Software Engineer",
+    "duration": "Jun 2022 - Mar 2023",
+    "logo": "./img/maq-software-logo.png",
+    "responsibilities": [
+      "Created and sustained an interactive web portal featuring embedded Power BI reports with C#, .NET MVC, and JavaScript; enhanced data accessibility leading to a 40% increase in daily active users over six months.",
+      "Directed the entire project lifecycle, from database design to backend code development and user interface creation; streamlined processes that enhanced overall project delivery speed by 30% for future iterations.",
+      "Created an easy-to-use landing page for the portal to help users quickly find different reports.",
+      "Engineered high-performance stored procedures in Microsoft SQL Server to optimize complex queries, reducing execution time from two seconds to less than one second for critical daily operations."
+    ]
+  },
+  {
+    "company": "MAQ Software",
+    "location": "Mumbai, India",
+    "type": "experience",
+    "role": "Associate Software Engineer - Intern",
+    "duration": "Jan 2022 - Jun 2022",
+    "logo": "./img/maq-software-logo.png",
+    "responsibilities": [
+      "Designed a comprehensive auditing platform, where users could manually upload reports and screenshots for checking code quality and architecture compliance.",
+      "Streamlined the release process for every two weeks, verifying operational excellence and adherence to established coding standards; contributed to an increase in overall system stability by addressing critical bugs ahead of rollout.",
+      "Worked on fixing bugs by troubleshooting issues and making improvements to enhance system efficiency."
+    ]
+  },
+  {
+    "institution": "DA-IICT",
+    "location": "Gandhinagar, India",
+    "type": "education",
+    "degree": "Bachelor of Technology in Information and Communication Technology",
+    "duration": "July 2018 - May 2022",
+    "gpa": "3.08",
+    "coursework": [
+      "Software Engineering",
+      "Software Project Management",
+      "Machine Learning",
+      "Database Management System",
+      "No SQL Database",
+      "Introduction to Robotics",
+      "Internet of Things",
+      "Computer Networks",
+      "Computer Organization",
+      "Systems Software",
+      "Design and Analysis of Algorithms"
+    ],
+    "logo": "./img/daiict-logo.png"
+  }
+]
 }

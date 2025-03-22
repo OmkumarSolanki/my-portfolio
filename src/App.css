@@ -161,6 +161,7 @@ h2 {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 1;
 }
 .navbar--items > ul {
   list-style: none;
@@ -937,4 +938,185 @@ input[type="checkbox"] {
 
 .ul-course-list {
   margin-top: 0;
+}
+/* General Styling */
+.timeline-container {
+  max-width: 90%;
+  /* margin: 0 auto; */
+  padding: 3% 7%;
+}
+
+.timeline-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Timeline Line */
+.timeline {
+  position: relative;
+  border-left: 4px solid #6b46c1; /* Purple line */
+  padding-left: 20px;
+}
+
+/* Timeline Item */
+.timeline-item {
+  position: relative;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+
+/* Dots on Timeline */
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -11px;
+  top: 43px;
+  width: 14px;
+  height: 14px;
+  background-color: #6b46c1;
+  border-radius: 50%;
+}
+
+/* Header with Logo */
+.timeline-header {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-bottom: 10px;
+}
+
+.timeline-logo {
+  width: 10%;
+  object-fit: contain;
+}
+
+/* Company Details */
+.timeline-details {
+  flex: 1;
+}
+
+/* Text Styling */
+.timeline-company {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.timeline-role {
+  font-size: 16px;
+  font-weight: 600;
+  color: #444;
+}
+
+.timeline-duration {
+  font-size: 14px;
+  color: #777;
+  display: block;
+  margin-bottom: 8px;
+}
+
+/* Responsibilities */
+.timeline-responsibilities {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.timeline-responsibilities li {
+  margin-bottom: 5px;
+}
+
+/* 🟢 Responsive Design */
+@media (max-width: 768px) {
+  .timeline {
+    border-left: 3px solid #6b46c1;
+  }
+
+  .timeline-item {
+    padding-left: 8px;
+  }
+
+  .timeline-item::before {
+    left: -9px;
+    width: 7px;
+    height: 7px;
+    top: 10px;
+  }
+
+  .timeline-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .timeline-logo {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+  }
+
+  .timeline-company {
+    font-size: 16px;
+  }
+
+  .timeline-role {
+    font-size: 14px;
+  }
+
+  .timeline-duration {
+    font-size: 12px;
+  }
+
+  .timeline-responsibilities {
+    padding-left: 15px;
+  }
+
+  .timeline-responsibilities li {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .timeline-container {
+    max-width: 95%;
+  }
+
+  .timeline-title {
+    font-size: 20px;
+  }
+
+  .timeline-header {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .timeline-logo {
+    width: 35px;
+    height: 35px;
+  }
+
+  .timeline-company {
+    font-size: 14px;
+  }
+
+  .timeline-role {
+    font-size: 12px;
+  }
+
+  .timeline-duration {
+    font-size: 11px;
+  }
+
+  .timeline-responsibilities {
+    padding-left: 10px;
+  }
+
+  .timeline-responsibilities li {
+    font-size: 12px;
+  }
+  .timeline-coursework {
+    font-size: 12px;
+  }
+  h4 {
+    font-size: 12px;
+  }
 }
