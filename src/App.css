@@ -983,7 +983,7 @@ input[type="checkbox"] {
 .timeline-header {
   display: flex;
   align-items: center;
-  gap: 7px;
+  gap: 15px;
   margin-bottom: 10px;
 }
 
@@ -999,8 +999,13 @@ input[type="checkbox"] {
 
 /* Text Styling */
 .timeline-company {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
+}
+
+.timeline-subtitle {
+  font-size: 16px;
+  color: #777;
 }
 
 .timeline-role {
@@ -1010,10 +1015,14 @@ input[type="checkbox"] {
 }
 
 .timeline-duration {
-  font-size: 14px;
+  font-size: 16px;
   color: #777;
   display: block;
   margin-bottom: 8px;
+}
+
+.timeline-gpa {
+  font-size: 14px;
 }
 
 /* Responsibilities */
@@ -1118,5 +1127,8 @@ input[type="checkbox"] {
   }
   h4 {
     font-size: 12px;
+  }
+  .timeline-header {
+    gap: 7px;
   }
 }
